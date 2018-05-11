@@ -1,0 +1,19 @@
+{
+    "database": {
+        "host":"localhost",
+        "username":"news_crawling",
+        "password":"password"
+    },
+    "jieba": {
+        "stop_words_filename": "jieba_dict/stop_words.txt",
+        "idf_filename":"jieba_dict/idf.txt.big"
+    }, 
+    "urls": {
+        "chinatimes": {
+            "root": "http://www.chinatimes.com/",
+            "life": "http://www.chinatimes.com/life/total/",
+            "health": "http://www.chinatimes.com/healthcare/total"
+        }
+        
+    }
+}
