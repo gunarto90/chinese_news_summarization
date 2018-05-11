@@ -2,6 +2,11 @@
 # coding=utf-8
 
 import json
+from datetime import datetime
+
+def debug(*argv):
+  s = ' '.join(map(str, argv))
+  print('[{}] {}'.format(datetime.now(), s))
 
 def read_config(filename='db_config.json'):
   try:

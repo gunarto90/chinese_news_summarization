@@ -101,6 +101,9 @@ ENV/
 .mypy_cache/
 
 # lalala custom
+__init__.py
 db_config.json
 *.ini
 *.pyc
+.vscode/launch.json
+.vscode/settings.json
