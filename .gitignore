@@ -107,3 +107,5 @@ db_config.json
 *.pyc
 .vscode/launch.json
 .vscode/settings.json
+log/*
+git template.txt

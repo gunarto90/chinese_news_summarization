@@ -4,14 +4,14 @@
 import numpy as np
 import pandas as pd
 ### Custom import
-import lalala.functions as fn
+from lalala.functions import debug, read_config, system_init
 import lalala.database as mysql
 
 def main():
-    status, config = fn.system_init()
+    status, config = system_init()
     if status != 200:
         return
-    fn.debug(config)
+    # debug(config)
     # db_config = config['database']
     # mysql.connect_via_config(db_config)
 
